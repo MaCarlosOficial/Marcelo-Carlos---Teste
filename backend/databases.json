@@ -1,0 +1,56 @@
+{
+  "entidades": [
+    {
+      "id": 1,
+      "nome": "DASA",
+      "regiao": "São Paulo",
+      "especialidade": "Laboratorios",
+      "ativa": "sim"
+    },
+    {
+      "id": 2,
+      "nome": "LAVOISER",
+      "regiao": "São Caetano do Sul",
+      "especialidade": "Laboratorios",
+      "ativa": "não"
+    },
+    {
+      "id": 3,
+      "nome": "Teste",
+      "regiao": "São Paulo",
+      "especialidade": "Laboratorios",
+      "ativa": "sim"
+    },
+    {
+      "id": 4,
+      "nome": "DELBONI",
+      "regiao": "São André",
+      "especialidade": "Laboratorios",
+      "ativa": "sim"
+    },
+    {
+      "id": 5,
+      "nome": "Marcelo A Carlos",
+      "regiao": "Ribeirão Preto",
+      "especialidade": "Cardiologia",
+      "ativa": "Sim"
+    },
+    {
+      "id": 7,
+      "nome": "José da Silva",
+      "regiao": "Norte",
+      "especialidade": "Imagem",
+      "ativa": "Sim"
+    }
+  ],
+  "login": [
+    {
+      "login": "admin@admin.com",
+      "senha": "admin"
+    },
+    {
+    "login": "marcelo@marcelo.com",
+    "senha": "marcelo"
+    }
+  ]  
+}

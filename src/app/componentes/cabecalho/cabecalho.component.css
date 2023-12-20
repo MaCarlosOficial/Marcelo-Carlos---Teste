@@ -1,0 +1,23 @@
+.cabecalho {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho .logo {
+  width: 100%;
+  padding: 2rem 3rem;
+  justify-self: right;
+}
+.cabecalho .logo img {
+  max-width: 1rem;
+}
+
+.cabecalho .imagem {
+  width: 15%;
+  padding: 2rem 2rem;
+}
+.cabecalho .imagem img {
+  max-width: 1rem;
+}

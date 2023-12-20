@@ -1,0 +1,30 @@
+<section class="container login ff-inter">
+    <header class="header">
+      <h2>Entre com o seu login</h2>
+    </header>
+    <form>
+      <label for="login">Login*</label>
+      <input
+        type="textarea"
+        class="input"
+        id="login_entrada"
+        name="login_entrada"
+        placeholder="Entre com seu e-mail"
+        required
+        [(ngModel)]="requestLogin.login"
+      />
+      <label for="senha">Senha*</label>
+      <input
+        type="password"
+        class="input"
+        id="senha"
+        name="senha"
+        placeholder="Entre com sua senha"
+        required
+        [(ngModel)]="requestLogin.senha"
+      >
+      <div class="acoes">
+        <button (click)="login_entrar()" class="botao">ENTRAR</button>
+      </div>
+    </form>
+  </section>

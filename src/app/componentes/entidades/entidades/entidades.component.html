@@ -1,0 +1,15 @@
+<div class="entidades ff-roboto-mono entidades-p">
+    <div class="texto">
+    <p><b>Entidade: </b>{{ entidades.nome }}
+        <b>Região: </b>{{ entidades.regiao }}
+        <b>Especialidade: </b>{{ entidades.especialidade }}
+        <b>Ativa: </b>{{ entidades.ativa }}
+      <button class="botao-editar" routerLink="/entidades/editar-entidade/{{entidades.id}}">
+        <img src="/assets/imagens/icone-editar.png" alt="Ícone de editar">
+      </button>
+      <button routerLink="/entidades/excluir-entidade/{{entidades.id}}"  class="botao-excluir"> 
+        <img src="/assets/imagens/icone-excluir.png" alt="Ícone de excluir">
+      </button>
+      </p>
+    </div>
+</div>

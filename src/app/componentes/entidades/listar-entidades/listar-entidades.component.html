@@ -1,0 +1,17 @@
+<section class="container">
+  <header class="header d-flex">
+    <h2 class="ff-inter">Entidades</h2>
+    <button routerLink="/criar-entidades" class="botao">Criar Entidade</button>
+  </header>
+  <div class="entidades" *ngIf="listaEntidades.length > 0, else semEntidades">
+    <div *ngFor="let entidades of listaEntidades">
+      <app-entidades [entidades]="entidades"></app-entidades>
+    </div>
+  </div>
+</section>
+<ng-template #semEntidades>
+  <div class="ff.ff-inter sem-entidades">
+    <p>Nenhuma Entidade Cadastrada</p>
+  </div>
+</ng-template>
+

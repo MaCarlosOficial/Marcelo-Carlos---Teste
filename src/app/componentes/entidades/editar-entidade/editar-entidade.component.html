@@ -1,0 +1,55 @@
+<section class="container editar-entidade ff-inter">
+  <header class="header">
+    <h2>Editar Entidade</h2>
+  </header>
+  <form>
+    <label for="id">Código</label>
+    <input 
+      type="textarea"
+      class="input"
+      id="id"
+      name="id"
+      [(ngModel)]="entidade.id"
+    >
+    <label for="nome">Entidade</label>
+    <input 
+      type="textarea"
+      class="input"
+      id="nome"
+      name="nome"
+      placeholder="Digite o nome da Entidade"
+      [(ngModel)]="entidade.nome"
+    >
+    <label for="regiao">Região</label>
+    <input 
+      type="text"
+      class="input"
+      id="regiao"
+      name="regiao"
+      placeholder="Digite a Região"
+      [(ngModel)]="entidade.regiao"
+    >
+    <label for="especialidade">Especialidade</label>
+    <input 
+      type="text"
+      class="input"
+      id="especialidade"
+      name="especialidade"
+      placeholder="Digite a Especialidade"
+      [(ngModel)]="entidade.especialidade"
+    >
+    <label for="ativa">Ativa (Sim/Não)</label>
+    <input 
+      type="text"
+      class="input"
+      id="ativa"
+      name="ativa"
+      placeholder="Sim/Não"
+      [(ngModel)]="entidade.ativa"
+    >
+    <div class="acoes">
+      <button (click)="editar_entidade()" class="botao" >Salvar</button>
+      <button (click)="cancelar_edicao()"  class="botao">Cancelar</button>
+    </div>
+  </form>
+</section>
